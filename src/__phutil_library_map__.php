@@ -35,9 +35,8 @@ phutil_register_library_map(array(
     'ArcanistBinaryNumericScalarCasingXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistBinaryNumericScalarCasingXHPASTLinterRule.php',
     'ArcanistBinaryNumericScalarCasingXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistBinaryNumericScalarCasingXHPASTLinterRuleTestCase.php',
     'ArcanistBlacklistedFunctionXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistBlacklistedFunctionXHPASTLinterRule.php',
-styleLinter' => 'lint/linter/UberCheckstyleLinter.php',
-'UberCheckstyleLinter' => 'ArcanistLinter',
-
+    'ArcanistBlacklistedFunctionXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistBlacklistedFunctionXHPASTLinterRuleTestCase.php',
+    'ArcanistBlindlyTrustHTTPEngineExtension' => 'configuration/ArcanistBlindlyTrustHTTPEngineExtension.php',
     'ArcanistBookmarkWorkflow' => 'workflow/ArcanistBookmarkWorkflow.php',
     'ArcanistBraceFormattingXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistBraceFormattingXHPASTLinterRule.php',
     'ArcanistBraceFormattingXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistBraceFormattingXHPASTLinterRuleTestCase.php',
