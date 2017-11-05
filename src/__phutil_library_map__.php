@@ -35,8 +35,9 @@ phutil_register_library_map(array(
     'ArcanistBinaryNumericScalarCasingXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistBinaryNumericScalarCasingXHPASTLinterRule.php',
     'ArcanistBinaryNumericScalarCasingXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistBinaryNumericScalarCasingXHPASTLinterRuleTestCase.php',
     'ArcanistBlacklistedFunctionXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistBlacklistedFunctionXHPASTLinterRule.php',
-    'ArcanistBlacklistedFunctionXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistBlacklistedFunctionXHPASTLinterRuleTestCase.php',
-    'ArcanistBlindlyTrustHTTPEngineExtension' => 'configuration/ArcanistBlindlyTrustHTTPEngineExtension.php',
+styleLinter' => 'lint/linter/UberCheckstyleLinter.php',
+'UberCheckstyleLinter' => 'ArcanistLinter',
+
     'ArcanistBookmarkWorkflow' => 'workflow/ArcanistBookmarkWorkflow.php',
     'ArcanistBraceFormattingXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistBraceFormattingXHPASTLinterRule.php',
     'ArcanistBraceFormattingXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistBraceFormattingXHPASTLinterRuleTestCase.php',
@@ -199,6 +200,9 @@ phutil_register_library_map(array(
     'ArcanistInvalidOctalNumericScalarXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistInvalidOctalNumericScalarXHPASTLinterRuleTestCase.php',
     'ArcanistIsAShouldBeInstanceOfXHPASTLinterRule' => 'lint/linter/xhpast/rules/ArcanistIsAShouldBeInstanceOfXHPASTLinterRule.php',
     'ArcanistIsAShouldBeInstanceOfXHPASTLinterRuleTestCase' => 'lint/linter/xhpast/rules/__tests__/ArcanistIsAShouldBeInstanceOfXHPASTLinterRuleTestCase.php',
+
+'UberCheckstyleLinter' => 'lint/linter/UberCheckstyleLinter.php',
+
     'ArcanistJSHintLinter' => 'lint/linter/ArcanistJSHintLinter.php',
     'ArcanistJSHintLinterTestCase' => 'lint/linter/__tests__/ArcanistJSHintLinterTestCase.php',
     'ArcanistJSONLintLinter' => 'lint/linter/ArcanistJSONLintLinter.php',
@@ -474,6 +478,7 @@ phutil_register_library_map(array(
     'ArcanistCastSpacingXHPASTLinterRuleTestCase' => 'ArcanistXHPASTLinterRuleTestCase',
     'ArcanistCheckstyleXMLLintRenderer' => 'ArcanistLintRenderer',
     'ArcanistChmodLinter' => 'ArcanistLinter',
+'UberCheckstyleLinter' => 'ArcanistLinter',
     'ArcanistChmodLinterTestCase' => 'ArcanistLinterTestCase',
     'ArcanistClassExtendsObjectXHPASTLinterRule' => 'ArcanistXHPASTLinterRule',
     'ArcanistClassExtendsObjectXHPASTLinterRuleTestCase' => 'ArcanistXHPASTLinterRuleTestCase',
